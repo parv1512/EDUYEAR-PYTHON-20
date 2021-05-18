@@ -1,0 +1,28 @@
+<html>
+<head>
+	<style type="text/css">
+        a:link,a:visited{
+                         background-color:rgb(38, 255, 38);
+                         color:black;
+                         padding:12px 22px;
+                         text-align:center;
+                         text-decoration:none;
+                         display:inline-block
+                        }
+        a:hover,a:active{background-color:rgb(255, 57, 57)}   
+		img{text-align: center; 		
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 50%;}             
+        </style>
+	<title>
+		{% block title %}
+		{% endblock %}
+	</title>
+</head>
+<body>
+    {% block content %}
+    {% endblock %}
+</body>
+</html>
